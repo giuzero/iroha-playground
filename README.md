@@ -1,12 +1,12 @@
 # iroha-playground
-## just a playground
+### just a playground
 Create docker network
 ```
 docker network create iroha-network;
 ```
 Create postgres docker
 ```
-docker run --name postgres4iroha \
+docker run --name some-postgres \
 -e POSTGRES_USER=postgres \
 -e POSTGRES_PASSWORD=mysecretpassword \
 -p 5432:5432 \
@@ -18,7 +18,7 @@ Create blockstore
 ```
 docker volume create blockstore
 ```
-Clone
+Clone (need configuration files)
 ```
 git clone -b main https://github.com/hyperledger/iroha --depth=1
 ```
