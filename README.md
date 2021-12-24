@@ -1,5 +1,5 @@
-# hato-iroha-playground
-### just a playground to set up hato app
+# iroha-playground
+### just a playground
 Create docker network
 ```
 docker network create iroha-network;
